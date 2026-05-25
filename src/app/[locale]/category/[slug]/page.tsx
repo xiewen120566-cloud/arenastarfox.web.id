@@ -64,7 +64,7 @@ export default async function Page({
       <Header categories={categories} hostname={hostname} />
       <Container maxWidth="container.xl" px={{ base: 3, md: 4, lg: 6 }} py={{ base: 4, md: 6 }}>
         <GptAd
-          divId="div-gpt-ad-1779455354783-0"
+          divId="div-gpt-ad-arena-category-top"
           adUnitPath="/23352793996/0522Banner1"
           sizes={[[300, 75], [300, 100], [300, 50], [300, 250], [320, 50]]}
           minWidth={300}

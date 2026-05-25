@@ -29,7 +29,7 @@ export default async function LocaleLayout({
         crossOrigin="anonymous"
         strategy="beforeInteractive"
       />
-      {/* <Script
+      <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-0FKCXR93S2"
         crossOrigin="anonymous"
@@ -50,7 +50,6 @@ export default async function LocaleLayout({
           `,
         }}
       /> */}
-      {/* ttq 像素追踪  */}
       <Script
         id="tiktok-pixel-javascript"
         strategy="afterInteractive"
