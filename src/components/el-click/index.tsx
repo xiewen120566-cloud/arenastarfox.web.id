@@ -41,16 +41,16 @@ const ElClick: React.FC = () => {
   const buildAdData = useCallback(
     (adContainer: Element | null, iframe: HTMLIFrameElement | null): AdData | null => {
       try {
+        if (!adContainer) return null;
+
         const slotId =
-          adContainer.getAttribute("id") ??
+          adContainer?.getAttribute("id") ??
           (
-            adContainer.querySelector?.(
+            adContainer?.querySelector?.(
               ".gpt-slot[id], [id^='div-gpt-ad-']"
             ) as HTMLElement | null
           )?.getAttribute("id") ??
           null;
-
-        if (!adContainer) return null;
 
         const base: AdData = {
           adContainerId: slotId,
