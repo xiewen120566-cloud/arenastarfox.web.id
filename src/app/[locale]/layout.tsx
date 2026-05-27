@@ -49,7 +49,7 @@ export default async function LocaleLayout({
           gtag('config', 'G-0FKCXR93S2')
           `,
         }}
-      /> */}
+      />
       <Script
         id="tiktok-pixel-javascript"
         strategy="afterInteractive"
